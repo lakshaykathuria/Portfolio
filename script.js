@@ -79,7 +79,7 @@ projectsArray.forEach((project, index) => {
   demoLink.href = project.demoLink;
   demoLink.textContent = "demo";
 
-  links.append(githubLink, demoLink);
+  links.append(githubLink);
 
   div.append(h3, p, links);
 
