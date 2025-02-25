@@ -24,22 +24,24 @@ const socialHandles = [
 
 const projectsArray = [
   {
+    title: "E-Library (Online Library Management System)",
+    desc: " The E-Library is a backend system developed to simplify online library management by enabling functionalities such as user authentication, book management, and record retrieval. Built using Java Spring Boot and PostgreSQL, this project provides a scalable and efficient solution for handling digital library operations. It features secure authentication, CRUD operations for books, and optimized API endpoints to enhance performance and user experience.",
+    githubLink: "https://github.com/lakshaykathuria/E-Library",
+  },
+  {
     title: "J.A.R.V.I.S",
     desc: " The J.A.R.V.I.S is a Python virtual assistant project inspired by Tony Stark's intelligent AI system from the Marvel universe. It is designed to provide a range of functionalities and assist users with tasks using natural language processing and automation capabilities. While this project is a simplified version of the fictional J.A.R.V.I.S, it serves as a foundation for building a voice-controlled assistant.",
     githubLink: "https://github.com/lakshaykathuria/JARVIS",
-    // demoLink: " ",
   },
   {
     title: "Bank Management System",
     desc: "A Bank Management System project in Python and MySQL is a software application that allows users to perform banking transactions such as creating and managing accounts, depositing and withdrawing funds, checking balances, and viewing transaction history.",
     githubLink: "https://github.com/lakshaykathuria/Bank-management-system",
-    // demoLink: " ",
   },
   {
     title: "Flipkart Clone",
     desc: "The Flipkart Clone project is a web-based e-commerce application that emulates the appearance and basic functionality of the popular online shopping platform, Flipkart. This project is primarily built using HTML and CSS, focusing on replicating the user interface (UI) and layout of the Flipkart website.",
     githubLink: "https://github.com/lakshaykathuria/Flipkart-Clone",
-    // demoLink: " ",
   },
 ];
 
