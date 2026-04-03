@@ -1,56 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="images/LOGO1.png" >
-    <title>Lakshay Kathuria</title>
-  </head>
-  <body>
-       <main class="main-content">
-      <nav>
-        <ul class="nav-items"> 
-          <li class="nav-item"><a target="_blank" href="https://docs.google.com/document/d/13tI_dtobZLTh-6111uZU5UqTSU01Bju7/edit?usp=sharing&ouid=112856428773376522030&rtpof=true&sd=true">Resume</a></li>
-        </ul>
-      </nav> 
-      <section class="hero-section">
-        <div class="banner-div">
-          <img
-            class="banner-img"
-            src="./images/self(1).jpg"
-            alt="banner"/>
-        </div> 
-        <h1 style="margin-top: 20px">Hii This is Lakshay Kathuria</h1>
-        <p>
-          I work on <span class="keywords">Software Engineering</span> projects.
-          I'm also interested in 
-          <span class="keywords">Content Creation</span>. 
-        </p>
-        <p>
-          I keep posting my work and sharing my stories on 
-          <a target="_blank" href="https://www.linkedin.com/in/kathuria-lakshay/">Linkedin</a>.
-        </p>
-        <p>
-          Wanna get in touch? Reach out to me on
-          <a target="_blank" href="https://www.linkedin.com/in/kathuria-lakshay/">Linkedin</a>
-          or 
-          <a target="_blank" href="https://www.instagram.com/lakshay_kathuria_/"> Instagram </a> 
-        </p>
-        <div id="socials" class="socials"></div>
-      </section>
-    
-      <hr />
 
-      <section class="projects-section">
-        <h2>My projects</h2>
-        <div id="projects" class="projects"></div>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Lakshay Kathuria — Backend Developer specializing in Java, Spring Boot, REST APIs, and AI-integrated applications." />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="icon" href="images/LOGO1.png" />
+  <title>Lakshay Kathuria — Backend Developer</title>
+</head>
+
+<body>
+
+  <!-- Animated background particles -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">LK<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn-resume" href="https://drive.google.com/file/d/1SORLnhOLhqCUopPhxkDWCZNcmt6mGc3U/view?usp=sharing
+        target=" _blank">
+        <i class="fas fa-file-alt"></i> Resume
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO / ABOUT ===== -->
+    <section class="hero" id="about">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-tag"><span class="pulse-dot"></span> Open to opportunities</div>
+          <h1>Hi, I'm <span class="gradient-text">Lakshay Kathuria</span></h1>
+          <h2 class="hero-role">Backend Developer</h2>
+          <p class="hero-bio">
+            Backend developer with strong foundations in <strong>Java, Spring Boot, and REST API development</strong>.
+            Experienced in building backend systems, integrating APIs, and designing microservice-based applications.
+            Passionate about <strong>distributed systems</strong>, <strong>event-driven architectures</strong>, and
+            scalable backend platforms.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn-secondary">Get In Touch</a>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/lakshaykathuria" target="_blank" title="GitHub"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kathuria-lakshay/" target="_blank" title="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/Lakshay_1808" target="_blank" title="Twitter / X"><i
+                class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/lakshay_kathuria_/" target="_blank" title="Instagram"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-image-ring"></div>
+          <img src="./images/self(1).png" alt="Lakshay Kathuria" class="hero-avatar" />
+        </div>
+      </div>
+
+      <!-- Education cards -->
+      <div class="edu-row">
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div>
+            <div class="edu-degree">Master of Computer Applications (MCA)</div>
+            <div class="edu-school">Ganga Institute of Technology and Management</div>
+            <div class="edu-year">2024 – Present</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div>
+            <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+            <div class="edu-school">Ganga Institute of Technology and Management</div>
+            <div class="edu-year">2021 – 2024</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="section-header">
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <div class="section-header">
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Professional journey so far</p>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="section-header">
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Things I've built and shipped</p>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section class="section" id="certifications">
+      <div class="section-header">
+        <h2 class="section-title">Achievements &amp; <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">Recognition and learning milestones</p>
+      </div>
+      <div class="certs-grid" id="certs-grid"></div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact-section" id="contact">
+      <div class="section-header">
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Let's build something great together</p>
+      </div>
+      <div class="contact-card">
+        <p class="contact-text">
+          I'm currently open to backend engineering roles and collaboration opportunities.
+          Whether you have a project in mind or just want to connect, feel free to reach out!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:lakshayakathuria2003@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i> Email Me
+          </a>
+          <a href="https://www.linkedin.com/in/kathuria-lakshay/" target="_blank" class="contact-item">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/lakshaykathuria" target="_blank" class="contact-item">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://www.instagram.com/lakshay_kathuria_/" target="_blank" class="contact-item"
+            id="contact-instagram">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer></footer>
+
   <script src="script.js"></script>
-</html> 
+</body>
+
+</html>
