@@ -60,14 +60,14 @@ const projects = [
     name: "AI Assistant — Multimodal AI Application",
     desc: "A backend service integrating large language models and image generation APIs. Implemented WebSocket-based communication enabling real-time chat interaction. Added conversation memory to maintain context across multiple user messages. Supports text generation via Gemini and image generation via Stability AI.",
     tech: ["Spring Boot", "Spring AI", "Vertex AI", "Stability AI", "WebSocket"],
-    github: "https://github.com/lakshaykathuria",
+    github: "https://github.com/lakshaykathuria/AI_Assistant",
   },
   {
     icon: "🔗",
     name: "URL Shortener — Link Management System",
     desc: "Built a backend service to generate shortened URLs using Base62 encoding. Implemented REST APIs for link creation, redirection, and analytics tracking. Stored link metadata and analytics data using PostgreSQL.",
     tech: ["Spring Boot", "PostgreSQL", "REST APIs"],
-    github: "https://github.com/lakshaykathuria",
+    github: "https://github.com/lakshaykathuria/URLShortner",
   },
   {
     icon: "📚",
