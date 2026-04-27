@@ -52,7 +52,7 @@ const projects = [
     name: "TradeIntel AI — Algorithmic Trading Platform",
     desc: "A backend platform for analysing stock market data and generating trading signals. Implemented trading strategies including RSI, MACD, Moving Average crossover, Bollinger Bands, and Support/Resistance. Integrated broker APIs and WebSockets to receive real-time market data streams, and built a backtesting module to evaluate strategies using historical OHLCV data.",
     tech: ["Java", "Spring Boot", "Apache Kafka", "PostgreSQL", "WebSocket"],
-    github: "https://github.com/lakshaykathuria",
+    github: "https://github.com/lakshaykathuria/tradeintel_ai",
   },
   {
     icon: "🤖",
